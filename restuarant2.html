@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0px;
+      padding: 0px;
+      background-color: #0e0b16;
+    }
+
+    .heade {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      text-transform: uppercase;
+      letter-spacing: 2.5px;
+      line-height: 0.2;
+
+      font-weight: lighter;
+      margin-right: 75px;
+      margin-left: 20px;
+      color: #d9d9d9;
+      display: inline-block;
+    }
+    span {
+      font-size: 40px;
+    }
+    .heade p {
+      padding-left: 145px;
+      font-size: 12px;
+      color: #f7ac6b;
+    }
+
+    .text {
+      color: orange;
+      font-style: italic;
+      text-align: center;
+      display: inline-block;
+      padding-left: 90px;
+    }
+
+    .wrap {
+      margin: 60px auto;
+      border-top: 2px solid #f77504;
+      width: 700px;
+      height: 900px;
+    }
+    .gallery {
+      margin: 15px;
+      border: 1px solid #f77504;
+      width: 200px;
+      float: left;
+      position: relative;
+      cursor: pointer;
+    }
+    .image {
+      width: 100%;
+      height: auto;
+    }
+    .disc {
+      text-align: center;
+      padding: 15px;
+      color: white;
+    }
+    .dropdown {
+      display: none;
+      position: absolute;
+      padding: 5px 10px;
+      background-color: #f77504;
+      color: white;
+      z-index: 1;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.4);
+      min-width: 160px;
+    }
+    .gallery:hover .dropdown {
+      display: block;
+    }
+
+    footer {
+      background: #cd6100;
+      height: 200px;
+      padding: 10px;
+      clear: both;
+      position: relative;
+      color: white;
+    }
+
+    .address {
+      display: inline-block;
+      margin: 10px 30px;
+    }
+    .copy {
+      display: inline-block;
+      position: absolute;
+      bottom: 2px;
+      padding-left: 150px;
+    }
+    .social {
+      display: inline-block;
+      position: absolute;
+      top: 10px;
+      right: 45px;
+    }
+  </style>
+  <body>
+    <div class="heade">
+      <h1><span>i</span>nno<span>f</span>luence</h1>
+      <p>restaurant</p>
+    </div>
+    <div class="text" style="position: sticky; top: 0px; z-index: 3">
+      <h1>FOOD GALLERY</h1>
+    </div>
+    <div class="wrap">
+      <div class="gallery">
+        <div class="image">
+          <img src="images/meal1.jpg" alt="" height="180px" width="200px" />
+        </div>
+        <div class="disc">
+          <p>Breakfast Salad</p>
+        </div>
+        <div class="dropdown">
+          <p>#4,000</p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="image">
+          <img src="images/meal2.jpg" alt="" height="180px" width="200px" />
+        </div>
+        <div class="disc">
+          <p>Lunch Spaghetti</p>
+        </div>
+        <div class="dropdown">
+          <p>#7,000</p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="image">
+          <img src="images/meal3.jpg" alt="" height="180px" width="200px" />
+        </div>
+        <div class="disc">
+          <p>Dinner Apracito</p>
+        </div>
+        <div class="dropdown">
+          <p>#8,000</p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="image">
+          <img src="images/meal4.jpg" alt="" height="180px" width="200px" />
+        </div>
+        <div class="disc">
+          <p>Breakfast Salad</p>
+        </div>
+        <div class="dropdown">
+          <p>#4,000</p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="image">
+          <img src="images/meal5.jpg" alt="" height="180px" width="200px" />
+        </div>
+        <div class="disc">
+          <p>Lunch Spaghetti</p>
+        </div>
+        <div class="dropdown">
+          <p>#7,000</p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="image">
+          <img src="images/meal6.jpg" alt="" height="180px" width="200px" />
+        </div>
+        <div class="disc">
+          <p>Dinner Apracito</p>
+        </div>
+        <div class="dropdown">
+          <p>#6,000</p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="image">
+          <img src="images/meal7.jpg" alt="" height="180px" width="200px" />
+        </div>
+        <div class="disc">
+          <p>Breakfast Salad</p>
+        </div>
+        <div class="dropdown">
+          <p>#4,000</p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="image">
+          <img src="images/meal8.jpg" alt="" height="180px" width="200px" />
+        </div>
+        <div class="disc">
+          <p>Lunch Spaghetti</p>
+        </div>
+        <div class="dropdown">
+          <p>#7,000</p>
+        </div>
+      </div>
+
+      <div class="gallery">
+        <div class="image">
+          <img src="images/food.jpg" alt="" height="180px" width="200px" />
+        </div>
+        <div class="disc">
+          <p>Dinner Apracito</p>
+        </div>
+        <div class="dropdown">
+          <p>#5,000</p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="address">
+        <h3>You can contact us here</h3>
+        <p>Alagbado, Lagos state.</p>
+        <p>+2348096657891</p>
+        <p>innofluence@gmail.com</p>
+      </div>
+      <div class="copy">Innofluence&copy2020</div>
+      <div class="social">
+        <h3>Social Media</h3>
+        <div>
+          <img src="images/facebook-4-24.png" alt="" />
+          <img src="images/instagram-4-24.png" alt="" />
+          <img src="images/twitter-4-24.png" alt="" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
